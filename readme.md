@@ -37,10 +37,10 @@ La API expone dos endpoints principales:
 
 ### 1. Convertir de Romano a Decimal
 
-Envía una petición **GET** al endpoint `/romano/` seguido del número romano.
+Envía una petición **GET** al endpoint `/r2a/` seguido del número romano.
 
-- **Endpoint:** `GET /romano/:Rnumber`  
-- **Ejemplo:** [http://localhost:8080/romano/MCMXCIV](http://localhost:8080/romano/MCMXCIV)
+- **Endpoint:** `GET /r2a/:Rnumber`  
+- **Ejemplo:** [http://localhost:8080/r2a/MCMXCIV](http://localhost:8080/r2a/MCMXCIV)
 
 #### Respuesta Exitosa (200)
 
@@ -63,12 +63,12 @@ Envía una petición **GET** al endpoint `/romano/` seguido del número romano.
 
 ---
 
-### 2. Convertir de Decimal a Romano
+### 2. Convertir de arabigo a Romano
 
-Envía una petición **GET** al endpoint `/decimal/` seguido del número decimal.
+Envía una petición **GET** al endpoint `/a2r/` seguido del número decimal.
 
-- **Endpoint:** `GET /decimal/:Dnumber`  
-- **Ejemplo:** [http://localhost:8080/decimal/1994](http://localhost:8080/decimal/1994)
+- **Endpoint:** `GET /a2r/:Dnumber`  
+- **Ejemplo:** [http://localhost:8080/a2r/1994](http://localhost:8080/a2r/1994)
 
 #### Respuesta Exitosa (200)
 
